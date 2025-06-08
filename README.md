@@ -25,7 +25,7 @@ Proxy is a structural design pattern that lets you provide a substitute or place
 
 <img src="https://refactoring.guru/images/patterns/diagrams/proxy/problem-en.png?id=b36e65189e939de5dc809636c1946a43">
 Database queries can be really slow.
-
+<br><br>
 Solution:
 
 <img src="https://refactoring.guru/images/patterns/diagrams/proxy/solution-en.png?id=ab36b8b03fabf92c7dd10ad87507b78c">
@@ -42,12 +42,12 @@ Observer is a behavioral design pattern that lets you define a subscription mech
 <img src="https://refactoring.guru/images/patterns/content/observer/observer-comic-1-en.png?id=1ec8571b22ea8fd2ed537f06cc763152">
 Image on the left is a customer visiting the store every day to check if the product they want is available.
 Image on the right is the store sending emails every time a new product is available.
-
+<br><br>
 Solution:
 
 <img src="https://refactoring.guru/images/patterns/diagrams/observer/solution1-en.png?id=60fb9a2822649dec1c68b78733479c57">
 A subscription mechanism lets individual objects subscribe to event notifications.
 
 ## References
-[Proxy Pattern](https://refactoring.guru/design-patterns/proxy)
-[Observer Pattern](https://refactoring.guru/design-patterns/observer)
+[Proxy Pattern on refactoring.guru](https://refactoring.guru/design-patterns/proxy)<br>
+[Observer Pattern on refactoring.guru](https://refactoring.guru/design-patterns/observer)
