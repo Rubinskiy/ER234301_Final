@@ -6,6 +6,7 @@ from notifier import Notifier
 s1 = Student("Bob", "bob@student.its.ac.id")
 s2 = Student("Risya", "risya@student.its.ac.id")
 s3 = Student("Zhafir", "zhafir@student.its.ac.id")
+s4 = Student("Jawi", "jawi@student.its.ac.id")
 
 # Create event
 study_event = Event("Software Design Final Project Presentation", "2025-06-16")
@@ -14,6 +15,7 @@ study_event = Event("Software Design Final Project Presentation", "2025-06-16")
 study_event.add_subscriber(s1)
 study_event.add_subscriber(s2)
 study_event.add_subscriber(s3)
+study_event.add_subscriber(s4)
 
 # Send reminder
 notifier = Notifier(study_event)
